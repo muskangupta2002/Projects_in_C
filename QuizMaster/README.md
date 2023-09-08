@@ -1,6 +1,7 @@
 # QuizMaster
 
-Welcome to the QuizMaster project repository! This C programming project allows users to take an interactive quiz, answer multiple-choice questions, and record their performance. The project focuses on enhancing your C programming skills while creating an engaging educational application.
+Welcome to the QuizMaster project repository!
+This C programming project allows users to take an interactive quiz, answer multiple-choice questions, and record their performance. The project focuses on enhancing your C programming skills while creating an engaging educational application.
 
 ## Table of Contents
 
@@ -50,7 +51,8 @@ gcc -o QuizMaster QuizMaster.c
 3. Answer the multiple-choice questions by selecting the correct option (1-4).
 4. The timer will keep track of the time remaining.
 5. Once the quiz is completed or the time is up, your marks and details will be recorded in a "marks.txt" file.
-6. You can view the quiz results in the "marks.txt" file.
+6. The choice entered after the given time limit is over, will not be considered or recorded.
+7. You can view the quiz results in the "marks.txt" file.
 
 ## Contributing
 
